@@ -1,6 +1,8 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import { Travel } from './travel.js'
+
+import { Travel } from './travel';
 
 function App() {
   return (
@@ -22,7 +24,8 @@ function App() {
         country="America"
         distance="8000 km"
       />
-      );
-    }
-    </ div>
-    export default App;
+
+    </div>
+  );
+}
+export default App;
