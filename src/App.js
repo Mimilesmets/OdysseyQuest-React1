@@ -4,8 +4,8 @@ import './App.css';
 
 import { Travel } from './travel';
 
-function App() {
-  return (
+class App extends Component {
+  render() {
     < div className="App">
       <header className="App-header">
         <h1 className="App-title">My Travels</h1>
@@ -26,6 +26,6 @@ function App() {
       />
 
     </div>
-  );
+  }
 }
 export default App;
