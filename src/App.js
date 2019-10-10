@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -6,7 +6,7 @@ import { Travel } from './travel';
 
 class App extends Component {
   render() {
-    < div className="App">
+    return < div className="App">
       <header className="App-header">
         <h1 className="App-title">My Travels</h1>
       </header>
