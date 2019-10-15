@@ -8,3 +8,5 @@ export const Travel = props => (
     <div className="distance">{props.distance}</div>
   </div>
 );
+
+export default Travel; 

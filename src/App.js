@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { Travel } from './travel';
+import  Travels  from "./Travels";
+
 
 class App extends Component {
   render() {
@@ -10,20 +11,9 @@ class App extends Component {
       <header className="App-header">
         <h1 className="App-title">My Travels</h1>
       </header>
-      <Travel
-        image="http://zupimages.net/viewer.php?id=19/41/eskm.png"
-        name="Toscane"
-        destination="Toscane"
-        country="Italia"
-        distance="800 km"
+      <Travels
       />
-      <Travel
-        image="http://zupimages.net/viewer.php?id=19/41/7ml8.png"
-        name="New York"
-        destination="New York"
-        country="America"
-        distance="8000 km"
-      />
+   
 
     </div>
   }
